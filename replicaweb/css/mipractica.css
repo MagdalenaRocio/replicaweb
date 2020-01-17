@@ -1,0 +1,115 @@
+@charset "utf-8";
+*{
+	font-family: 'Lato', sans-serif;
+}
+#menunav{
+	position: fixed;
+	width: 99%;
+	z-index: 100;
+
+}
+
+.enlaces{
+	float:right;
+	margin-right: 30px;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+
+
+.enlaces a{
+	margin-right: 60px;
+	color:white;
+	text-decoration: none;
+	margin-right: 60px;
+	font-size:15pt;
+
+}
+.enlaces a:hover{
+	background-color: blue;
+}
+
+#logolike{
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#cabecera{
+	width: 100%;
+	position: relative;
+}
+
+
+#primera{
+	margin-top: 180px;
+	position: absolute;
+	left: 400px;
+	color: white; 
+	text-align: center;
+	z-index: 50;
+
+}
+
+.capa{
+	overflow: hidden;
+	background-color: black;
+}
+
+
+#paquitasalas{
+	width: 100%;
+	height: 600px;
+	filter:opacity(20%);
+
+}
+
+.botones
+{
+margin-top: 20px;
+margin-left: 20px;
+display:inline-block;
+width: 22%;
+height: 50px;
+border: 0;
+box-shadow: 0;
+text-align: center;
+font-size: 1em;
+background-color:blue;
+}
+.botones:hover{
+	background-color: black;
+}
+#formas{
+	width: 100%;
+	position: absolute;
+	z-index: 25;
+	top:430px;
+}
+#izq{
+	position: absolute;
+	margin-left: 0;
+	float:left;
+	width: 0;
+	height: 0;
+	border-top: 155px solid transparent;
+	border-left: 1350px solid white;
+	border-bottom: 0px solid transparent;
+	z-index: 30;
+}
+#derec{
+	position: absolute;
+	margin-right: 0px;
+	float:right;
+	width: 0;
+	height: 0;
+	border-top: 155px solid transparent;
+	border-right: 1600px solid white;
+	border-bottom: 0px solid transparent;
+	z-index: 30;
+}
+#ancla{
+	position: absolute;
+	margin-left: 690px;
+	margin-top: 170px;
+}
